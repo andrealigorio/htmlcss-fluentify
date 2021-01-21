@@ -9,3 +9,67 @@
   display: table;
   clear: both;
 }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  background-color: #0c325a;
+  height: 80px;
+}
+
+#logo {
+  height: 70px;
+  padding: 10px 30px 10px 0;
+  float: left;
+}
+#logo img {
+  height: 100%;
+}
+
+nav {
+  padding-top: 20px;
+}
+nav .nav_left {
+  float: left;
+}
+nav .nav_right {
+  float: right;
+}
+
+ul li {
+  display: inline-block;
+  margin: 10px;
+}
+ul li a {
+  list-style: none;
+  font-size: 11px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+.nav_left a:hover, .nav_right a:not(.button):hover {
+  color: #7cbb02;
+}
+
+.button {
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn_login {
+  border: 1px solid white;
+  padding: 10px 30px;
+}
+.btn_small {
+  background-color: #7cbb02;
+  padding: 10px;
+}
