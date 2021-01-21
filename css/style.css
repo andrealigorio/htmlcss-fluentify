@@ -34,8 +34,7 @@ header {
 }
 
 nav {
-  height: 120px;
-  padding-top: 20px;
+  padding: 20px 0 50px;
 }
 nav .nav_left {
   float: left;
@@ -49,7 +48,7 @@ ul li {
   font-size: 11px;
   margin: 10px;
 }
-ul li a, .banner_content a {
+ul li a, .banner_content a, footer a, #help a{
   list-style: none;
   text-decoration: none;
   text-transform: uppercase;
@@ -91,12 +90,12 @@ ul li a, .banner_content a {
 }
 .banner_content {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 10%;
   transform: translateY(-50%);
 }
 .banner h1 {
-  font-size: 40px;
+  font-size: 50px;
   width: 60%;
   color: white;
   margin-bottom: 40px;
@@ -159,4 +158,42 @@ main > hr {
 }
 .under_right h5 a {
   color: #5687bd;
+}
+
+footer {
+  width: 100%;
+  background-color: #d3d3d3;
+}
+footer .end_title {
+  padding: 50px 0;
+}
+footer .foot_text {
+  padding: 20px 0;
+}
+footer h3 {
+  display: inline-block;
+  font-weight: 400;
+  color: #808080;
+  margin-right: 40px;
+}
+footer h3:last-child {
+  text-decoration: underline;
+  white-space: pre; /*per lasciare spazi vuoti*/
+}
+footer h3:last-child::after {
+  content: '\25BE';
+}
+.end_title h2 {
+  padding: 20px 0;
+  float: left;
+}
+.end_title .foot_text, .end_title a {
+  float: right;
+}
+
+#help {
+  position: fixed;
+  bottom: 2vh;
+  right: 25vh;
+  z-index: 99;
 }
