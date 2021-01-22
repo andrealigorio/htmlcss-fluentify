@@ -54,7 +54,7 @@ ul li a, .banner_content a, footer a, #help a{
   text-transform: uppercase;
   color: white;
 }
-.nav_left a:hover, .nav_right a:not(.button):hover {
+nav a:not(.button):hover {
   color: #7cbb02;
 }
 /* Definisco i bottoni */
@@ -192,7 +192,7 @@ footer h3:last-child::after {
 /* Definisco bottone fixed di help */
 #help {
   position: fixed;
-  bottom: 2vh;
-  right: 25vh;
+  bottom: 1vh;
+  right: 15%;
   z-index: 99;
 }
